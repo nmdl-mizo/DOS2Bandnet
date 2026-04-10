@@ -1,6 +1,6 @@
 # DOS2BandNet
 
-DOS2BandNet preprocesses VASP outputs into **1D electron diffraction**, **DOS**, and **EBS band maps**, and uses them as conditioning inputs for band-map prediction models.
+DOS2BandNet is an AI framework that predicts unfolded band structures, also referred to as effective band structures (EBS), from density of states (DOS) and one-dimensional electron diffraction (ED).
 
 ---
 
