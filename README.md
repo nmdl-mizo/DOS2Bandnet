@@ -51,6 +51,7 @@ $$
 
 #### (b) `EBS.dat` -> band map (`ebs.npy`)
 
+`EBS.dat` is generated from the VASP outputs using **VASPKIT**.
 For each point $(k_m,E_m,w_m)$ in `EBS.dat`, accumulate a 2D Gaussian kernel:
 
 $$
