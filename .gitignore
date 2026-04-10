@@ -1,0 +1,31 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# venv
+.venv/
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# 학습 산출물 / 로그 / 체크포인트
+runs/
+wandb/
+checkpoints/
+*.pt
+*.ckpt
+*.pth
+*.safetensors
+
+# 데이터
+data/
+*.npy
+*.npz
+
+# 기타
+*.log
+
