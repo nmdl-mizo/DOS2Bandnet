@@ -22,9 +22,9 @@ pip install .
 
 `scripts/preprocessing.py` generates the following files for each target `band*` directory:
 
-- `diffrac.npy`: 1D electron diffraction intensity
-- `dos.npy`: DOS vector (or site-projected array)
-- `ebs.npy`: 2D band intensity map
+- `diffrac.npy`: 1D electron diffraction intensity, processed from `POSCAR`
+- `dos.npy`: DOS vector (or site-projected array), processed from `vasprun.xml`
+- `ebs.npy`: 2D band intensity map, processed from `EBS.dat` (by VASPKIT)
 
 ### 2.1 Formulas (GitHub-rendered math)
 
@@ -99,7 +99,7 @@ cd DOS2band_dataset
 
 ### 3.1 Preprocessing
 
-The Zenodo dataseti also provides preprocessed data.  
+The Zenodo dataset also provides preprocessed data.  
 Therefore, this step is not required when using the released dataset.
 
 ```bash
