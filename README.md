@@ -102,6 +102,8 @@ cd DOS2band_dataset
 The Zenodo dataset also provides preprocessed data.  
 Therefore, this step is not required when using the released dataset.
 
+Please prepare `vasprun.xml`, `POSCAR`, `EBS.dat` for preprocessing.
+
 ```bash
 python scripts/preprocessing.py \
   --prefix1 vac \
